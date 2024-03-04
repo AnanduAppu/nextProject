@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PricingComponent from "./fall";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         </article>
       </div>
     </section>
+    <PricingComponent/>
     </>
   );
 }
