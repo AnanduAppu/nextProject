@@ -6,7 +6,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header
+        className="bg-blue-300 p-2"
+        >Navbar</header>
+        {children}
+        <footer  className="bg-slate-300 p-2">Footer</footer>
+      </body>
     </html>
   )
 }
